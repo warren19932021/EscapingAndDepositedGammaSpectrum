@@ -36,8 +36,8 @@
 #include "G4ios.hh"
 #include "G4SystemOfUnits.hh"
 #include "G4Gamma.hh"
-
-
+#include "G4Track.hh"
+#include "G4VProcess.hh"
 //....oooOO0OOooo........oooOO0OOooo........oooOO0OOooo........oooOO0OOooo......
 
 HPGeSD::HPGeSD(const G4String& name,
@@ -75,41 +75,51 @@ G4bool HPGeSD::ProcessHits(G4Step* aStep,
                                      G4TouchableHistory*)
 {           
 
-  std::ifstream readFlagForRealSignalinHPGeSD("FlagForRealSignal.txt");
-  G4int FlagForRealSignalValueinHPGeSD;
-  readFlagForRealSignalinHPGeSD >> FlagForRealSignalValueinHPGeSD;
+          // energy deposit
+          G4double edep = aStep->GetTotalEnergyDeposit() / MeV;
+          if (edep==0.) return false;
 
+          G4Track * track =  aStep->GetTrack();
 
-  G4Track * track =  aStep->GetTrack();
-
-
-  if(FlagForRealSignalValueinHPGeSD == 1)
+    
+          std::ifstream readFlagForRealSignalInHPGeSD("FlagForRealSignal.txt");
+          G4int FlagForRealSignalValueInHPGeSD;
+          readFlagForRealSignalInHPGeSD >> FlagForRealSignalValueInHPGeSD;
+       
+  if (FlagForRealSignalValueInHPGeSD == 1)
     {
+        G4cout<<"In HPGeSD::ProcessHits, It is signal from muon capture!\n"<<G4endl;
+
        if(track->GetDefinition()==G4Gamma::GammaDefinition())
        {
-           G4cout<<"FlagForRealSignalValueinHPGeSD: "<<FlagForRealSignalValueinHPGeSD<<G4endl; 
-           // energy deposit
-           G4double edep = aStep->GetTotalEnergyDeposit() / MeV;
-           G4cout << "DEBUG: Hit with energy " << G4BestUnit(edep, "Energy") << G4endl;
-           if (edep==0.) return false;
-     
-     
-           HPGeHit* newHit = new HPGeHit();
-         
-           newHit->SetTrackID  (aStep->GetTrack()->GetTrackID());
-           newHit->SetVolumeNb(aStep->GetPreStepPoint()->GetTouchableHandle()
-                                                        ->GetCopyNumber());
-           newHit->SetEdep(edep);
-           newHit->SetPos (aStep->GetPostStepPoint()->GetPosition());
-         
-           fHitsCollection->insert( newHit );
-         
-           //newHit->Print();
 
+            G4cout<<"In HPGeSD::ProcessHits, It is signal Gamma from muon capture!\n"<<G4endl;
 
+            G4String LogicalVolumeName = track->GetLogicalVolumeAtVertex()->GetName();
+            
+            if(LogicalVolumeName.compare("logical_Te_target")==0)
+            {
+
+               G4cout<<"In HPGeSD::ProcessHits, It is Gamma from muon capture and produced in target !\n"<<G4endl;
+
+               G4cout << "DEBUG: Hit with energy " << G4BestUnit(edep, "Energy") << G4endl;
+         
+         
+               HPGeHit* newHit = new HPGeHit();
+             
+               newHit->SetTrackID  (aStep->GetTrack()->GetTrackID());
+               newHit->SetVolumeNb(aStep->GetPreStepPoint()->GetTouchableHandle()
+                                                            ->GetCopyNumber());
+               newHit->SetEdep(edep);
+               newHit->SetPos (aStep->GetPostStepPoint()->GetPosition());
+             
+               fHitsCollection->insert( newHit );
+             
+               //newHit->Print();
+         
+           }
        }
-    }
-
+    } 
 
 
   return true;
