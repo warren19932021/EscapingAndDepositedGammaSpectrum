@@ -1,0 +1,1775 @@
+
+**************************************************************
+ Geant4 version Name: geant4-10-07-patch-01    (5-February-2021)
+                       Copyright : Geant4 Collaboration
+                      References : NIM A 506 (2003), 250-303
+                                 : IEEE-TNS 53 (2006), 270-278
+                                 : NIM A 835 (2016), 186-225
+                             WWW : http://geant4.org/
+**************************************************************
+
+
+***** Table : Nb of materials = 25 *****
+
+ Material:   G4_AIR    density:  1.205 mg/cm3  RadL: 303.921 m    Nucl.Int.Length: 710.095 m  
+                       Imean:  85.700 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:   0.01 %  ElmAbundance   0.02 % 
+
+   --->  Element: N (N)   Z =  7.0   N =    14   A = 14.007 g/mole
+         --->  Isotope:   N14   Z =  7   N =  14   A =  14.00 g/mole   abundance: 99.632 %
+         --->  Isotope:   N15   Z =  7   N =  15   A =  15.00 g/mole   abundance:  0.368 %
+          ElmMassFraction:  75.53 %  ElmAbundance  78.44 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  23.18 %  ElmAbundance  21.07 % 
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.948 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction:   1.28 %  ElmAbundance   0.47 % 
+
+
+ Material:    G4_Te    density:  6.240 g/cm3   RadL:   1.415 cm   Nucl.Int.Length:  28.238 cm 
+                       Imean: 485.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Te (Te)   Z = 52.0   N =   128   A = 127.603 g/mole
+         --->  Isotope: Te120   Z = 52   N = 120   A = 119.90 g/mole   abundance:  0.090 %
+         --->  Isotope: Te122   Z = 52   N = 122   A = 121.90 g/mole   abundance:  2.550 %
+         --->  Isotope: Te123   Z = 52   N = 123   A = 122.90 g/mole   abundance:  0.890 %
+         --->  Isotope: Te124   Z = 52   N = 124   A = 123.90 g/mole   abundance:  4.740 %
+         --->  Isotope: Te125   Z = 52   N = 125   A = 124.90 g/mole   abundance:  7.070 %
+         --->  Isotope: Te126   Z = 52   N = 126   A = 125.90 g/mole   abundance: 18.840 %
+         --->  Isotope: Te128   Z = 52   N = 128   A = 127.90 g/mole   abundance: 31.740 %
+         --->  Isotope: Te130   Z = 52   N = 130   A = 129.91 g/mole   abundance: 34.080 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: G4_PLASTIC_SC_VINYLTOLUENE    density:  1.032 g/cm3   RadL:  42.544 cm   Nucl.Int.Length:  69.969 cm 
+                       Imean:  64.700 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  91.47 %  ElmAbundance  47.37 % 
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   8.53 %  ElmAbundance  52.63 % 
+
+
+ Material: StainlessSteel    density:  8.060 g/cm3   RadL:   1.732 cm   Nucl.Int.Length:  16.509 cm 
+                       Imean: 281.194 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:   0.10 %  ElmAbundance   0.46 % 
+
+   --->  Element: Si (Si)   Z = 14.0   N =    28   A = 28.085 g/mole
+         --->  Isotope:  Si28   Z = 14   N =  28   A =  27.98 g/mole   abundance: 92.230 %
+         --->  Isotope:  Si29   Z = 14   N =  29   A =  28.98 g/mole   abundance:  4.683 %
+         --->  Isotope:  Si30   Z = 14   N =  30   A =  29.97 g/mole   abundance:  3.087 %
+          ElmMassFraction:   0.70 %  ElmAbundance   1.37 % 
+
+   --->  Element: Cr (Cr)   Z = 24.0   N =    52   A = 51.996 g/mole
+         --->  Isotope:  Cr50   Z = 24   N =  50   A =  49.95 g/mole   abundance:  4.345 %
+         --->  Isotope:  Cr52   Z = 24   N =  52   A =  51.94 g/mole   abundance: 83.789 %
+         --->  Isotope:  Cr53   Z = 24   N =  53   A =  52.94 g/mole   abundance:  9.501 %
+         --->  Isotope:  Cr54   Z = 24   N =  54   A =  53.94 g/mole   abundance:  2.365 %
+          ElmMassFraction:  18.00 %  ElmAbundance  18.96 % 
+
+   --->  Element: Mn (Mn)   Z = 25.0   N =    55   A = 54.938 g/mole
+         --->  Isotope:  Mn55   Z = 25   N =  55   A =  54.94 g/mole   abundance: 100.000 %
+          ElmMassFraction:   1.00 %  ElmAbundance   1.00 % 
+
+   --->  Element: Fe (Fe)   Z = 26.0   N =    56   A = 55.845 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction:  71.20 %  ElmAbundance  69.83 % 
+
+   --->  Element: Ni (Ni)   Z = 28.0   N =    59   A = 58.693 g/mole
+         --->  Isotope:  Ni58   Z = 28   N =  58   A =  57.94 g/mole   abundance: 68.077 %
+         --->  Isotope:  Ni60   Z = 28   N =  60   A =  59.93 g/mole   abundance: 26.223 %
+         --->  Isotope:  Ni61   Z = 28   N =  61   A =  60.93 g/mole   abundance:  1.140 %
+         --->  Isotope:  Ni62   Z = 28   N =  62   A =  61.93 g/mole   abundance:  3.635 %
+         --->  Isotope:  Ni64   Z = 28   N =  64   A =  63.93 g/mole   abundance:  0.926 %
+          ElmMassFraction:   9.00 %  ElmAbundance   8.40 % 
+
+
+ Material:   Vacuum    density:  0.000 mg/cm3  RadL: 3798812.424 km   Nucl.Int.Length: 8436857.896 km 
+                       Imean:  82.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: N (N)   Z =  7.0   N =    14   A = 14.007 g/mole
+         --->  Isotope:   N14   Z =  7   N =  14   A =  14.00 g/mole   abundance: 99.632 %
+         --->  Isotope:   N15   Z =  7   N =  15   A =  15.00 g/mole   abundance:  0.368 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: NaturalGe    density:  5.320 g/cm3   RadL:   2.304 cm   Nucl.Int.Length:  27.452 cm 
+                       Imean: 350.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: naturalGermanium (GeNat)   Z = 32.0   N =    73   A = 72.650 g/mole
+         --->  Isotope:  Ge70   Z = 32   N =  70   A =  69.92 g/mole   abundance: 20.900 %
+         --->  Isotope:  Ge72   Z = 32   N =  72   A =  71.92 g/mole   abundance: 27.500 %
+         --->  Isotope:  Ge73   Z = 32   N =  73   A =  73.00 g/mole   abundance:  7.700 %
+         --->  Isotope:  Ge74   Z = 32   N =  74   A =  74.00 g/mole   abundance: 36.300 %
+         --->  Isotope:  Ge76   Z = 32   N =  76   A =  76.00 g/mole   abundance:  7.600 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: EnrichedGe    density:  5.540 g/cm3   RadL:   2.306 cm   Nucl.Int.Length:  26.729 cm 
+                       Imean: 350.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: enrichedGermanium (GeEnr)   Z = 32.0   N =    76   A = 75.728 g/mole
+         --->  Isotope:  Ge70   Z = 32   N =  70   A =  69.92 g/mole   abundance:  0.000 %
+         --->  Isotope:  Ge72   Z = 32   N =  72   A =  71.92 g/mole   abundance:  0.100 %
+         --->  Isotope:  Ge73   Z = 32   N =  73   A =  73.00 g/mole   abundance:  0.200 %
+         --->  Isotope:  Ge74   Z = 32   N =  74   A =  74.00 g/mole   abundance: 13.100 %
+         --->  Isotope:  Ge76   Z = 32   N =  76   A =  76.00 g/mole   abundance: 86.600 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     GeLi    density:  5.323 g/cm3   RadL:   2.322 cm   Nucl.Int.Length:  27.114 cm 
+                       Imean: 342.627 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: naturalGermanium (GeNat)   Z = 32.0   N =    73   A = 72.650 g/mole
+         --->  Isotope:  Ge70   Z = 32   N =  70   A =  69.92 g/mole   abundance: 20.900 %
+         --->  Isotope:  Ge72   Z = 32   N =  72   A =  71.92 g/mole   abundance: 27.500 %
+         --->  Isotope:  Ge73   Z = 32   N =  73   A =  73.00 g/mole   abundance:  7.700 %
+         --->  Isotope:  Ge74   Z = 32   N =  74   A =  74.00 g/mole   abundance: 36.300 %
+         --->  Isotope:  Ge76   Z = 32   N =  76   A =  76.00 g/mole   abundance:  7.600 %
+          ElmMassFraction:  99.00 %  ElmAbundance  90.44 % 
+
+   --->  Element: Li (Li)   Z =  3.0   N =     7   A =  6.940 g/mole
+         --->  Isotope:   Li6   Z =  3   N =   6   A =   6.02 g/mole   abundance:  7.590 %
+         --->  Isotope:   Li7   Z =  3   N =   7   A =   7.02 g/mole   abundance: 92.410 %
+          ElmMassFraction:   1.00 %  ElmAbundance   9.56 % 
+
+
+ Material:      GeB    density:  5.323 g/cm3   RadL:   2.320 cm   Nucl.Int.Length:  27.195 cm 
+                       Imean: 344.435 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: naturalGermanium (GeNat)   Z = 32.0   N =    73   A = 72.650 g/mole
+         --->  Isotope:  Ge70   Z = 32   N =  70   A =  69.92 g/mole   abundance: 20.900 %
+         --->  Isotope:  Ge72   Z = 32   N =  72   A =  71.92 g/mole   abundance: 27.500 %
+         --->  Isotope:  Ge73   Z = 32   N =  73   A =  73.00 g/mole   abundance:  7.700 %
+         --->  Isotope:  Ge74   Z = 32   N =  74   A =  74.00 g/mole   abundance: 36.300 %
+         --->  Isotope:  Ge76   Z = 32   N =  76   A =  76.00 g/mole   abundance:  7.600 %
+          ElmMassFraction:  99.00 %  ElmAbundance  93.64 % 
+
+   --->  Element: B (B)   Z =  5.0   N =    11   A = 10.811 g/mole
+         --->  Isotope:   B10   Z =  5   N =  10   A =  10.01 g/mole   abundance: 19.900 %
+         --->  Isotope:   B11   Z =  5   N =  11   A =  11.01 g/mole   abundance: 80.100 %
+          ElmMassFraction:   1.00 %  ElmAbundance   6.36 % 
+
+
+ Material:      PET    density:  1.370 g/cm3   RadL:  29.161 cm   Nucl.Int.Length:  57.148 cm 
+                       Imean:  75.967 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  62.50 %  ElmAbundance  45.45 % 
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   4.20 %  ElmAbundance  36.36 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  33.30 %  ElmAbundance  18.18 % 
+
+
+ Material:      PLA    density:  1.400 g/cm3   RadL:  27.937 cm   Nucl.Int.Length:  55.494 cm 
+                       Imean:  74.444 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  50.00 %  ElmAbundance  33.33 % 
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   5.59 %  ElmAbundance  44.44 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  44.40 %  ElmAbundance  22.22 % 
+
+
+ Material:    Nylon    density:  1.150 g/cm3   RadL:  36.448 cm   Nucl.Int.Length:  62.943 cm 
+                       Imean:  64.136 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  63.68 %  ElmAbundance  31.58 % 
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   9.80 %  ElmAbundance  57.89 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  14.14 %  ElmAbundance   5.26 % 
+
+   --->  Element: N (N)   Z =  7.0   N =    14   A = 14.007 g/mole
+         --->  Isotope:   N14   Z =  7   N =  14   A =  14.00 g/mole   abundance: 99.632 %
+         --->  Isotope:   N15   Z =  7   N =  15   A =  15.00 g/mole   abundance:  0.368 %
+          ElmMassFraction:  12.38 %  ElmAbundance   5.26 % 
+
+
+ Material: Styropor    density: 20.000 mg/cm3  RadL:  22.268 m    Nucl.Int.Length:  34.397 m  
+                       Imean:  58.528 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:  12.80 %  ElmAbundance  63.63 % 
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  87.20 %  ElmAbundance  36.37 % 
+
+
+ Material: Polycarbonate    density:  1.200 g/cm3   RadL:  34.587 cm   Nucl.Int.Length:  63.350 cm 
+                       Imean:  71.709 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: H (H)   Z =  1.0   N =     1   A =  1.008 g/mole
+         --->  Isotope:    H1   Z =  1   N =   1   A =   1.01 g/mole   abundance: 99.989 %
+         --->  Isotope:    H2   Z =  1   N =   2   A =   2.01 g/mole   abundance:  0.011 %
+          ElmMassFraction:   5.55 %  ElmAbundance  42.42 % 
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:  75.58 %  ElmAbundance  48.49 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  18.88 %  ElmAbundance   9.09 % 
+
+
+ Material:     CFRP    density:  1.660 g/cm3   RadL:  25.721 cm   Nucl.Int.Length:  48.285 cm 
+                       Imean:  81.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material: ImpureAl    density:  2.700 g/cm3   RadL:   8.063 cm   Nucl.Int.Length:  39.606 cm 
+                       Imean: 174.369 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Al (Al)   Z = 13.0   N =    27   A = 26.982 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction:  96.28 %  ElmAbundance  99.50 % 
+
+   --->  Element: Pb (Pb)   Z = 82.0   N =   207   A = 207.217 g/mole
+         --->  Isotope: Pb204   Z = 82   N = 204   A = 203.97 g/mole   abundance:  1.400 %
+         --->  Isotope: Pb206   Z = 82   N = 206   A = 205.97 g/mole   abundance: 24.100 %
+         --->  Isotope: Pb207   Z = 82   N = 207   A = 206.98 g/mole   abundance: 22.100 %
+         --->  Isotope: Pb208   Z = 82   N = 208   A = 207.98 g/mole   abundance: 52.400 %
+          ElmMassFraction:   3.72 %  ElmAbundance   0.50 % 
+
+
+ Material: ImpureAl2    density:  2.700 g/cm3   RadL:   8.856 cm   Nucl.Int.Length:  38.926 cm 
+                       Imean: 166.473 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Al (Al)   Z = 13.0   N =    27   A = 26.982 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction:  99.00 %  ElmAbundance  99.28 % 
+
+   --->  Element: Si (Si)   Z = 14.0   N =    28   A = 28.085 g/mole
+         --->  Isotope:  Si28   Z = 14   N =  28   A =  27.98 g/mole   abundance: 92.230 %
+         --->  Isotope:  Si29   Z = 14   N =  29   A =  28.98 g/mole   abundance:  4.683 %
+         --->  Isotope:  Si30   Z = 14   N =  30   A =  29.97 g/mole   abundance:  3.087 %
+          ElmMassFraction:   0.27 %  ElmAbundance   0.26 % 
+
+   --->  Element: Fe (Fe)   Z = 26.0   N =    56   A = 55.845 g/mole
+         --->  Isotope:  Fe54   Z = 26   N =  54   A =  53.94 g/mole   abundance:  5.845 %
+         --->  Isotope:  Fe56   Z = 26   N =  56   A =  55.93 g/mole   abundance: 91.754 %
+         --->  Isotope:  Fe57   Z = 26   N =  57   A =  56.94 g/mole   abundance:  2.119 %
+         --->  Isotope:  Fe58   Z = 26   N =  58   A =  57.93 g/mole   abundance:  0.282 %
+          ElmMassFraction:   0.27 %  ElmAbundance   0.13 % 
+
+   --->  Element: Cu (Cu)   Z = 29.0   N =    64   A = 63.546 g/mole
+         --->  Isotope:  Cu63   Z = 29   N =  63   A =  62.93 g/mole   abundance: 69.170 %
+         --->  Isotope:  Cu65   Z = 29   N =  65   A =  64.93 g/mole   abundance: 30.830 %
+          ElmMassFraction:   0.06 %  ElmAbundance   0.03 % 
+
+   --->  Element: Cr (Cr)   Z = 24.0   N =    52   A = 51.996 g/mole
+         --->  Isotope:  Cr50   Z = 24   N =  50   A =  49.95 g/mole   abundance:  4.345 %
+         --->  Isotope:  Cr52   Z = 24   N =  52   A =  51.94 g/mole   abundance: 83.789 %
+         --->  Isotope:  Cr53   Z = 24   N =  53   A =  52.94 g/mole   abundance:  9.501 %
+         --->  Isotope:  Cr54   Z = 24   N =  54   A =  53.94 g/mole   abundance:  2.365 %
+          ElmMassFraction:   0.06 %  ElmAbundance   0.03 % 
+
+   --->  Element: Mn (Mn)   Z = 25.0   N =    55   A = 54.938 g/mole
+         --->  Isotope:  Mn55   Z = 25   N =  55   A =  54.94 g/mole   abundance: 100.000 %
+          ElmMassFraction:   0.17 %  ElmAbundance   0.08 % 
+
+   --->  Element: Mg (Mg)   Z = 12.0   N =    24   A = 24.305 g/mole
+         --->  Isotope:  Mg24   Z = 12   N =  24   A =  23.99 g/mole   abundance: 78.990 %
+         --->  Isotope:  Mg25   Z = 12   N =  25   A =  24.99 g/mole   abundance: 10.000 %
+         --->  Isotope:  Mg26   Z = 12   N =  26   A =  25.98 g/mole   abundance: 11.010 %
+          ElmMassFraction:   0.17 %  ElmAbundance   0.19 % 
+
+
+ Material: Custom_Air_01    density:  1.213 mg/cm3  RadL: 303.506 m    Nucl.Int.Length: 703.634 m  
+                       Imean:  85.155 eV   temperature: 293.00 K  pressure:   1.01 atm
+
+   --->  Element: N (N)   Z =  7.0   N =    14   A = 14.007 g/mole
+         --->  Isotope:   N14   Z =  7   N =  14   A =  14.00 g/mole   abundance: 99.632 %
+         --->  Isotope:   N15   Z =  7   N =  15   A =  15.00 g/mole   abundance:  0.368 %
+          ElmMassFraction:  78.10 %  ElmAbundance  80.68 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  20.90 %  ElmAbundance  18.90 % 
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.948 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction:   0.93 %  ElmAbundance   0.34 % 
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:   0.07 %  ElmAbundance   0.08 % 
+
+
+ Material: Custom_Air_02    density:  1.214 mg/cm3  RadL: 301.607 m    Nucl.Int.Length: 704.689 m  
+                       Imean:  85.700 eV   temperature: 293.00 K  pressure:   1.01 atm
+
+   --->  Element: C (C)   Z =  6.0   N =    12   A = 12.011 g/mole
+         --->  Isotope:   C12   Z =  6   N =  12   A =  12.00 g/mole   abundance: 98.930 %
+         --->  Isotope:   C13   Z =  6   N =  13   A =  13.00 g/mole   abundance:  1.070 %
+          ElmMassFraction:   0.01 %  ElmAbundance   0.02 % 
+
+   --->  Element: N (N)   Z =  7.0   N =    14   A = 14.007 g/mole
+         --->  Isotope:   N14   Z =  7   N =  14   A =  14.00 g/mole   abundance: 99.632 %
+         --->  Isotope:   N15   Z =  7   N =  15   A =  15.00 g/mole   abundance:  0.368 %
+          ElmMassFraction:  75.53 %  ElmAbundance  78.44 % 
+
+   --->  Element: O (O)   Z =  8.0   N =    16   A = 15.999 g/mole
+         --->  Isotope:   O16   Z =  8   N =  16   A =  15.99 g/mole   abundance: 99.757 %
+         --->  Isotope:   O17   Z =  8   N =  17   A =  17.00 g/mole   abundance:  0.038 %
+         --->  Isotope:   O18   Z =  8   N =  18   A =  18.00 g/mole   abundance:  0.205 %
+          ElmMassFraction:  23.18 %  ElmAbundance  21.07 % 
+
+   --->  Element: Ar (Ar)   Z = 18.0   N =    40   A = 39.948 g/mole
+         --->  Isotope:  Ar36   Z = 18   N =  36   A =  35.97 g/mole   abundance:  0.337 %
+         --->  Isotope:  Ar38   Z = 18   N =  38   A =  37.96 g/mole   abundance:  0.063 %
+         --->  Isotope:  Ar40   Z = 18   N =  40   A =  39.96 g/mole   abundance: 99.600 %
+          ElmMassFraction:   1.28 %  ElmAbundance   0.47 % 
+
+
+ Material:    G4_Cu    density:  8.960 g/cm3   RadL:   1.436 cm   Nucl.Int.Length:  15.588 cm 
+                       Imean: 322.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Cu (Cu)   Z = 29.0   N =    64   A = 63.546 g/mole
+         --->  Isotope:  Cu63   Z = 29   N =  63   A =  62.93 g/mole   abundance: 69.170 %
+         --->  Isotope:  Cu65   Z = 29   N =  65   A =  64.93 g/mole   abundance: 30.830 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Be    density:  1.848 g/cm3   RadL:  35.276 cm   Nucl.Int.Length:  39.413 cm 
+                       Imean:  63.700 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Be (Be)   Z =  4.0   N =     9   A =  9.012 g/mole
+         --->  Isotope:   Be9   Z =  4   N =   9   A =   9.01 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_He    density:  0.166 mg/cm3  RadL:   5.671 km   Nucl.Int.Length:   3.341 km 
+                       Imean:  41.800 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: He (He)   Z =  2.0   N =     4   A =  4.003 g/mole
+         --->  Isotope:   He3   Z =  2   N =   3   A =   3.02 g/mole   abundance:  0.000 %
+         --->  Isotope:   He4   Z =  2   N =   4   A =   4.00 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Al    density:  2.699 g/cm3   RadL:   8.896 cm   Nucl.Int.Length:  38.894 cm 
+                       Imean: 166.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Al (Al)   Z = 13.0   N =    27   A = 26.982 g/mole
+         --->  Isotope:  Al27   Z = 13   N =  27   A =  26.98 g/mole   abundance: 100.000 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:     G4_W    density: 19.300 g/cm3   RadL:   3.504 mm   Nucl.Int.Length:  10.312 cm 
+                       Imean: 727.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: W (W)   Z = 74.0   N =   184   A = 183.842 g/mole
+         --->  Isotope:  W180   Z = 74   N = 180   A = 179.95 g/mole   abundance:  0.120 %
+         --->  Isotope:  W182   Z = 74   N = 182   A = 181.95 g/mole   abundance: 26.500 %
+         --->  Isotope:  W183   Z = 74   N = 183   A = 182.95 g/mole   abundance: 14.310 %
+         --->  Isotope:  W184   Z = 74   N = 184   A = 183.95 g/mole   abundance: 30.640 %
+         --->  Isotope:  W186   Z = 74   N = 186   A = 185.95 g/mole   abundance: 28.430 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+ Material:    G4_Sn    density:  7.310 g/cm3   RadL:   1.206 cm   Nucl.Int.Length:  23.531 cm 
+                       Imean: 488.000 eV   temperature: 293.15 K  pressure:   1.00 atm
+
+   --->  Element: Sn (Sn)   Z = 50.0   N =   119   A = 118.710 g/mole
+         --->  Isotope: Sn112   Z = 50   N = 112   A = 111.91 g/mole   abundance:  0.970 %
+         --->  Isotope: Sn114   Z = 50   N = 114   A = 113.90 g/mole   abundance:  0.660 %
+         --->  Isotope: Sn115   Z = 50   N = 115   A = 114.90 g/mole   abundance:  0.340 %
+         --->  Isotope: Sn116   Z = 50   N = 116   A = 115.90 g/mole   abundance: 14.540 %
+         --->  Isotope: Sn117   Z = 50   N = 117   A = 116.90 g/mole   abundance:  7.680 %
+         --->  Isotope: Sn118   Z = 50   N = 118   A = 117.90 g/mole   abundance: 24.220 %
+         --->  Isotope: Sn119   Z = 50   N = 119   A = 118.90 g/mole   abundance:  8.590 %
+         --->  Isotope: Sn120   Z = 50   N = 120   A = 119.90 g/mole   abundance: 32.580 %
+         --->  Isotope: Sn122   Z = 50   N = 122   A = 121.90 g/mole   abundance:  4.630 %
+         --->  Isotope: Sn124   Z = 50   N = 124   A = 123.91 g/mole   abundance:  5.790 %
+          ElmMassFraction: 100.00 %  ElmAbundance 100.00 % 
+
+
+
+<<< Geant4 Physics List simulation engine: QGSP_BERT
+
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+
+ hInelastic QGSP_BERT  Thresholds: 
+    1) between BERT  and FTF/P over the interval 3 to 6 GeV. 
+    2) between FTF/P and QGS/P over the interval 12 to 25 GeV. 
+  -- quasiElastic: 1 for QGS  and 0 for FTF
+### Adding tracking cuts for neutron  TimeCut(ns)= 10000  KinEnergyCut(MeV)= 0
+Visualization Manager instantiating with verbosity "warnings (3)"...
+Visualization Manager initialising...
+Registering graphics systems...
+
+You have successfully registered the following graphics systems.
+Registered graphics systems are:
+  ASCIITree (ATree)
+  DAWNFILE (DAWNFILE)
+  G4HepRep (HepRepXML)
+  G4HepRepFile (HepRepFile)
+  RayTracer (RayTracer)
+  VRML1FILE (VRML1FILE)
+  VRML2FILE (VRML2FILE)
+  gMocrenFile (gMocrenFile)
+  OpenGLImmediateQt (OGLIQt, OGLI)
+  OpenGLStoredQt (OGLSQt, OGL, OGLS)
+  OpenGLImmediateX (OGLIX, OGLIQt_FALLBACK)
+  OpenGLStoredX (OGLSX, OGLSQt_FALLBACK)
+
+Registering model factories...
+
+You have successfully registered the following model factories.
+Registered model factories:
+  generic
+  drawByAttribute
+  drawByCharge
+  drawByOriginVolume
+  drawByParticleID
+  drawByEncounteredVolume
+
+Registered models:
+  None
+
+Registered filter factories:
+  attributeFilter
+  chargeFilter
+  originVolumeFilter
+  particleFilter
+  encounteredVolumeFilter
+
+Registered filters:
+  None
+
+You have successfully registered the following user vis actions.
+Run Duration User Vis Actions: none
+End of Event User Vis Actions: none
+End of Run User Vis Actions: none
+
+Some /vis commands (optionally) take a string to specify colour.
+"/vis/list" to see available colours.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+
+phot:  for gamma SubType=12 BuildTable=0
+      LambdaPrime table from 200 keV to 100 TeV in 61 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+ LivermorePhElectric : Emin=    0 eV  Emax=  100 TeV  SauterGavrila Fluo
+
+compt:  for gamma SubType=13 BuildTable=1
+      Lambda table from 100 eV  to 1 MeV, 7 bins/decade, spline: 1
+      LambdaPrime table from 1 MeV to 100 TeV in 56 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+       Klein-Nishina : Emin=    0 eV  Emax=  100 TeV
+
+conv:  for gamma SubType=14 BuildTable=1
+      Lambda table from 1.022 MeV to 100 TeV, 18 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+     BetheHeitlerLPM : Emin=    0 eV  Emax=  100 TeV  ModifiedTsai
+
+Rayl:  for gamma SubType=11 BuildTable=1
+      Lambda table from 100 eV  to 100 keV, 7 bins/decade, spline: 0
+      LambdaPrime table from 100 keV to 100 TeV in 63 bins 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+   LivermoreRayleigh : Emin=    0 eV  Emax=  100 TeV  CullenGenerator
+
+msc:  for e-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+              StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llimit=1
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+              StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llimit=1
+
+eIoni:  for e-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+CoulombScat:  for e-, integral:1  SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for e+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 MeV Nbins=42 100 eV  - 100 MeV
+              StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llimit=1
+        WentzelVIUni : Emin=  100 MeV Emax=  100 TeV Nbins=42 100 MeV - 100 TeV
+              StepLim=UseSafety Rfact=0.04 Gfact=2.5 Sfact=0.6 DispFlag:1 Skin=1 Llimit=1
+
+eIoni:  for e+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        MollerBhabha : Emin=    0 eV  Emax=  100 TeV
+
+eBrem:  for e+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      LPM flag: 1 for E > 1 GeV,  VertexHighEnergyTh(GeV)= 100000
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+             eBremSB : Emin=    0 eV  Emax=    1 GeV  ModifiedTsai
+            eBremLPM : Emin=    1 GeV Emax=  100 TeV  ModifiedTsai
+
+annihil:  for e+, integral:1  SubType=5 BuildTable=0
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            eplus2gg : Emin=    0 eV  Emax=  100 TeV
+
+CoulombScat:  for e+, integral:1  SubType=1 BuildTable=1
+      Lambda table from 100 MeV to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=  100 MeV Emax=  100 TeV
+
+msc:  for proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+hIoni:  for proton  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for proton  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for proton  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for proton, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for GenericIon  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+ionIoni:  for GenericIon  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.02
+      Stopping Power data for 17 ion/material pairs
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+msc:  for alpha  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            UrbanMsc : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+ionIoni:  for alpha  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.02
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            BraggIon : Emin=    0 eV  Emax=7.9452 MeV
+          BetheBloch : Emin=7.9452 MeV Emax=  100 TeV
+
+msc:  for anti_proton  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+hIoni:  for anti_proton  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=    2 MeV
+          BetheBloch : Emin=    2 MeV Emax=  100 TeV
+
+hBrems:  for anti_proton  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for anti_proton  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 17x1001; from 7.50618 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for anti_proton, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+hIoni:  for kaon+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon+  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon+, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for kaon-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+hIoni:  for kaon-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=1.05231 MeV
+          BetheBloch : Emin=1.05231 MeV Emax=  100 TeV
+
+hBrems:  for kaon-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for kaon-  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 18x1001; from 3.94942 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for kaon-, integral:1  SubType=1 BuildTable=1
+      Used Lambda table of kaon+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+muIoni:  for mu+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=  200 keV
+          BetheBloch : Emin=  200 keV Emax=    1 GeV
+        MuBetheBloch : Emin=    1 GeV Emax=  100 TeV
+
+muBrems:  for mu+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu+  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu+, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for mu-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+muIoni:  for mu-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=  200 keV
+          BetheBloch : Emin=  200 keV Emax=    1 GeV
+        MuBetheBloch : Emin=    1 GeV Emax=  100 TeV
+
+muBrems:  for mu-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+              MuBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+muPairProd:  for mu-  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 21x1001; from 1 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+          muPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for mu-, integral:1  SubType=1 BuildTable=1
+      Used Lambda table of mu+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi+  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+hIoni:  for pi+  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               Bragg : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi+  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi+  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi+, integral:1  SubType=1 BuildTable=1
+      Lambda table from threshold  to 100 TeV, 7 bins/decade, spline: 1
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+msc:  for pi-  SubType= 10
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+        WentzelVIUni : Emin=    0 eV  Emax=  100 TeV Nbins=84 100 eV  - 100 TeV
+              StepLim=Minimal Rfact=0.2 Gfact=2.5 Sfact=0.6 DispFlag:0 Skin=1 Llimit=1
+
+hIoni:  for pi-  SubType=2
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      StepFunction=(0.2, 0.1 mm), integ: 1, fluct: 1, linLossLim= 0.01
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+            ICRU73QO : Emin=    0 eV  Emax=297.505 keV
+          BetheBloch : Emin=297.505 keV Emax=  100 TeV
+
+hBrems:  for pi-  SubType=3
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+               hBrem : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+hPairProd:  for pi-  SubType=4
+      dE/dx and range tables from 100 eV  to 100 TeV in 84 bins
+      Lambda tables from threshold to 100 TeV, 7 bins/decade, spline: 1
+      Sampling table 20x1001; from 1.11656 GeV to 100 TeV 
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+           hPairProd : Emin=    0 eV  Emax=  100 TeV  ModifiedMephi
+
+CoulombScat:  for pi-, integral:1  SubType=1 BuildTable=1
+      Used Lambda table of pi+
+      ThetaMin(p) < Theta(degree) < 180; pLimit(GeV^1)= 0.139531
+      ===== EM models for the G4Region  DefaultRegionForTheWorld ======
+  eCoulombScattering : Emin=    0 eV  Emax=  100 TeV
+
+====================================================================
+                  HADRONIC PROCESSES SUMMARY (verbose level 1)
+
+---------------------------------------------------
+                           Hadronic Processes for neutron
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronElasticXS: 0 eV  ---> 100 TeV
+
+  Process: neutronInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:      G4NeutronInelasticXS: 0 eV  ---> 100 TeV
+
+  Process: nCapture
+        Model:               nRadCapture: 0 eV  ---> 100 TeV
+     Cr_sctns:        G4NeutronCaptureXS: 0 eV  ---> 100 TeV
+
+  Process: nKiller
+
+---------------------------------------------------
+                           Hadronic Processes for B-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: B-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for D-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: D-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for GenericIon
+
+  Process: ionInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+---------------------------------------------------
+                           Hadronic Processes for He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+  Process: He3Inelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+---------------------------------------------------
+                           Hadronic Processes for alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+  Process: alphaInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+---------------------------------------------------
+                           Hadronic Processes for anti_He3
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: anti_He3Inelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_alpha
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: anti_alphaInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: anti_deuteronInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: anti_lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 0 eV  ---> 25 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_neutron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: anti_neutronInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_proton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100.1 MeV
+        Model:              AntiAElastic: 100 MeV ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: anti_protonInelastic
+        Model:                      FTFP: 0 eV  ---> 100 TeV
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for anti_triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100.1 MeV/n
+        Model:              AntiAElastic: 100 MeV/n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: anti_tritonInelastic
+        Model:                      FTFP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:              AntiAGlauber: 0 eV  ---> 25.6 PeV
+
+  Process: hFritiofCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for deuteron
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+  Process: dInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+---------------------------------------------------
+                           Hadronic Processes for e+
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for e-
+
+  Process: electronNuclear
+        Model:   G4ElectroVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:          ElectroNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for gamma
+
+  Process: photonNuclear
+        Model:               GammaNPreco: 0 eV  ---> 200 MeV
+        Model:            BertiniCascade: 199 MeV ---> 6 GeV
+        Model:           TheoFSGenerator: 3 GeV ---> 100 TeV
+     Cr_sctns:            PhotoNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon+
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: kaon+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for kaon-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: kaon-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for lambda
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: lambdaInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu+
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for mu-
+
+  Process: muonNuclear
+        Model:      G4MuonVDNuclearModel: 0 eV  ---> 1 PeV
+     Cr_sctns:     KokoulinMuonNuclearXS: 0 eV  ---> 100 TeV
+
+  Process: muMinusCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for pi+
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: pi+Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for pi-
+
+  Process: hadElastic
+        Model:           hElasticGlauber: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: pi-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for proton
+
+  Process: hadElastic
+        Model:             hElasticCHIPS: 0 eV  ---> 100 TeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+  Process: protonInelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:  BarashenkovGlauberGribov: 0 eV  ---> 100 TeV
+
+---------------------------------------------------
+                           Hadronic Processes for sigma-
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV  ---> 100 TeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: sigma-Inelastic
+        Model:                      QGSP: 12 GeV ---> 100 TeV
+        Model:                      FTFP: 3 GeV ---> 25 GeV
+        Model:            BertiniCascade: 0 eV  ---> 6 GeV
+     Cr_sctns:            Glauber-Gribov: 0 eV  ---> 100 TeV
+
+  Process: hBertiniCaptureAtRest
+
+---------------------------------------------------
+                           Hadronic Processes for triton
+
+  Process: hadElastic
+        Model:              hElasticLHEP: 0 eV /n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+  Process: tInelastic
+        Model:  Binary Light Ion Cascade: 0 eV /n ---> 6 GeV/n
+        Model:                      FTFP: 3 GeV/n ---> 100 TeV/n
+     Cr_sctns:  Glauber-Gribov Nucl-nucl: 0 eV  ---> 25.6 PeV
+
+================================================================
+=======================================================================
+======       Pre-compound/De-excitation Physics Parameters     ========
+=======================================================================
+Type of pre-compound inverse x-section              3
+Pre-compound model active                           1
+Pre-compound excitation low energy (MeV)            0.1
+Pre-compound excitation high energy (MeV)           30
+Type of de-excitation inverse x-section             3
+Type of de-excitation factory                       Evaporation+GEM
+Number of de-excitation channels                    68
+Min excitation energy (keV)                         0.01
+Min energy per nucleon for multifragmentation (MeV) 2e+05
+Limit excitation energy for Fermi BreakUp (MeV)     20
+Level density (1/MeV)                               0.075
+Use simple level density model                      1
+Use discrete excitation energy of the residual      0
+Time limit for long lived isomeres (ns)             1000
+Isomer production flag                              1
+Internal e- conversion flag                         1
+Store e- internal conversion data                   0
+Electron internal conversion ID                     2
+Correlated gamma emission flag                      0
+Max 2J for sampling of angular correlations         10
+=======================================================================
+G4VisManager: Using G4TrajectoryDrawByCharge as fallback trajectory model.
+See commands in /vis/modeling/trajectories/ for other options.
+### Run 0 starts.
+RunID: 0
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 0 in RunID: 0
+We had some captures in target: 0 in RunID: 0
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 1 starts.
+RunID: 1
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 0 in RunID: 1
+We had some captures in target: 0 in RunID: 1
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 2 starts.
+RunID: 2
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 1 in RunID: 2
+We had some captures in target: 0 in RunID: 2
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 3 starts.
+RunID: 3
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 0 in RunID: 3
+We had some captures in target: 0 in RunID: 3
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 4 starts.
+RunID: 4
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 1 in RunID: 4
+We had some captures in target: 0 in RunID: 4
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 5 starts.
+RunID: 5
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 5 in RunID: 5
+We had some captures in target: 2 in RunID: 5
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 6 starts.
+RunID: 6
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 4 in RunID: 6
+We had some captures in target: 3 in RunID: 6
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 7 starts.
+RunID: 7
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 5 in RunID: 7
+We had some captures in target: 3 in RunID: 7
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 8 starts.
+RunID: 8
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 14 in RunID: 8
+We had some captures in target: 11 in RunID: 8
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 9 starts.
+RunID: 9
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 15 in RunID: 9
+We had some captures in target: 14 in RunID: 9
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 10 starts.
+RunID: 10
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 13 in RunID: 10
+We had some captures in target: 11 in RunID: 10
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 11 starts.
+RunID: 11
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 14 in RunID: 11
+We had some captures in target: 12 in RunID: 11
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 12 starts.
+RunID: 12
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 17 in RunID: 12
+We had some captures in target: 15 in RunID: 12
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 13 starts.
+RunID: 13
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 25 in RunID: 13
+We had some captures in target: 19 in RunID: 13
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 14 starts.
+RunID: 14
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 27 in RunID: 14
+We had some captures in target: 26 in RunID: 14
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 15 starts.
+RunID: 15
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 33 in RunID: 15
+We had some captures in target: 32 in RunID: 15
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 16 starts.
+RunID: 16
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 34 in RunID: 16
+We had some captures in target: 31 in RunID: 16
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 17 starts.
+RunID: 17
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 40 in RunID: 17
+We had some captures in target: 35 in RunID: 17
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 18 starts.
+RunID: 18
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 44 in RunID: 18
+We had some captures in target: 41 in RunID: 18
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 19 starts.
+RunID: 19
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 38 in RunID: 19
+We had some captures in target: 32 in RunID: 19
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 20 starts.
+RunID: 20
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 36 in RunID: 20
+We had some captures in target: 34 in RunID: 20
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 21 starts.
+RunID: 21
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 35 in RunID: 21
+We had some captures in target: 29 in RunID: 21
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 22 starts.
+RunID: 22
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 54 in RunID: 22
+We had some captures in target: 47 in RunID: 22
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 23 starts.
+RunID: 23
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 43 in RunID: 23
+We had some captures in target: 40 in RunID: 23
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 24 starts.
+RunID: 24
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 60 in RunID: 24
+We had some captures in target: 57 in RunID: 24
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 25 starts.
+RunID: 25
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 61 in RunID: 25
+We had some captures in target: 57 in RunID: 25
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 26 starts.
+RunID: 26
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 62 in RunID: 26
+We had some captures in target: 56 in RunID: 26
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 27 starts.
+RunID: 27
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 80 in RunID: 27
+We had some captures in target: 73 in RunID: 27
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 28 starts.
+RunID: 28
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 76 in RunID: 28
+We had some captures in target: 73 in RunID: 28
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 29 starts.
+RunID: 29
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 69 in RunID: 29
+We had some captures in target: 58 in RunID: 29
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 30 starts.
+RunID: 30
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 69 in RunID: 30
+We had some captures in target: 62 in RunID: 30
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 31 starts.
+RunID: 31
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 71 in RunID: 31
+We had some captures in target: 63 in RunID: 31
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 32 starts.
+RunID: 32
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 73 in RunID: 32
+We had some captures in target: 63 in RunID: 32
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 33 starts.
+RunID: 33
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 76 in RunID: 33
+We had some captures in target: 71 in RunID: 33
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 34 starts.
+RunID: 34
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 82 in RunID: 34
+We had some captures in target: 76 in RunID: 34
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 35 starts.
+RunID: 35
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 72 in RunID: 35
+We had some captures in target: 68 in RunID: 35
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 36 starts.
+RunID: 36
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 89 in RunID: 36
+We had some captures in target: 85 in RunID: 36
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 37 starts.
+RunID: 37
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 101 in RunID: 37
+We had some captures in target: 98 in RunID: 37
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 38 starts.
+RunID: 38
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 114 in RunID: 38
+We had some captures in target: 104 in RunID: 38
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+Checking overlaps for volume physTarget (G4Tubs) ... OK! 
+Checking overlaps for volume physScintillatorDetector1 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector2 (G4Box) ... OK! 
+Checking overlaps for volume physScintillatorDetector3 (G4Box) ... OK! 
+### Run 39 starts.
+RunID: 39
+--> Event 0 starts.
+--> Event 10000 starts.
+We had some captures: 122 in RunID: 39
+We had some captures in target: 115 in RunID: 39
+0 events have been kept for refreshing and/or reviewing.
+  "/vis/reviewKeptEvents" to review them one by one.
+  "/vis/enable", then "/vis/viewer/flush" or "/vis/viewer/rebuild" to see them accumulated.
+WARNING - Attempt to delete the physical volume store while geometry closed !
+WARNING - Attempt to delete the logical volume store while geometry closed !
+WARNING - Attempt to delete the solid store while geometry closed !
+WARNING - Attempt to delete the region store while geometry closed !

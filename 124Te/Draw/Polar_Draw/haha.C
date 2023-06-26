@@ -1,0 +1,62 @@
+void haha() {
+
+   double p0 = 25;
+   const char* fileOut = "bla.pdf";
+
+   gStyle->SetLabelSize(0.06,"xyz");
+   gStyle->SetLabelOffset(0.012,"xy");
+   gStyle->SetTitleOffset(1.05,"x");
+   gStyle->SetTitleOffset(1.15,"y");
+   gStyle->SetTitleSize(0.065,"xy");
+   gStyle->SetTitleBorderSize(0);
+   gStyle->SetOptStat("");
+
+   double thMax =1.5;
+   auto hPol = new TH2D("hPol", "",  360,-TMath::Pi(),TMath::Pi(),  90,0,thMax  );
+
+   hPol->GetZaxis()->SetMaxDigits(3);
+
+   auto cv = new TCanvas();
+
+const int Size = 16;
+Double_t th[Size]  = {1.1,1.2,1.3,1.4,1.5, 0.1,0.2,0.3,0.4,0,5, 0.6,0.7,0.8,0.9,1.0};
+//Double_t phi[Size]  = {0.78+0.34,0.77+0.34,0.76+0.34,0.75+0.34,0.74+0.34,0.73+0.34,0.72+0.34,0.71+0.34,0.7+0.34,0.69+0.34,0.68+0.34,0.67+0.34,0.66+0.34,0.65+0.34,0.64+0.34,0.63+0.34};
+//Double_t phi[Size]  = {0.78,0.77,0.76,0.75,0.74,0.73,0.72,0.71,0.7,0.69,0.68,0.67,0.66,0.65,0.64,0.63};
+Double_t phi[Size]  = {1.1,1.2,1.3,1.4,1.5, 0.1,0.2,0.3,0.4,0,5, 0.6,0.7,0.8,0.9,1.0};
+
+
+      for (int i=0; i<Size ; i++) {
+
+ 
+	 std::cout<<"phi: "<<phi[i]<<std::endl; 
+	 std::cout<<"phi*TMath::RadToDeg(): "<<phi[i]*TMath::RadToDeg()<<std::endl; 
+	 //std::cout<<"th: "<<th[i]<<std::endl; 
+	 //std::cout<<"th*TMath::RadToDeg(): "<<th[i]*TMath::RadToDeg()<<std::endl; 
+
+	 //hPol->Fill(phi[i]*TMath::RadToDeg(),th[i]);
+	 hPol->Fill(phi[i],th[i]);
+	 //hPol->Fill(phi[i],th[i]*TMath::RadToDeg());
+      }
+
+   hPol->Draw("lego2 polz");
+
+   hPol->SetLineColorAlpha(kBlack, 0.0);
+   cv->SetRightMargin(0.15);
+   cv->SetTheta(90.);
+   cv->SetPhi(0.);
+   gPad->Update();
+
+   auto PPad = new TPad("p","p",0.01,0.,.94,1.);
+   PPad->SetFillStyle(4000);
+   PPad->Draw();
+   PPad->cd();
+
+   auto gp = new TGraphPolargram("g",0,thMax, -180., 180.);
+   gp->SetToDegree ();
+   gp->SetNdivPolar(8);
+   gp->SetNdivRadial(4);
+   gp->SetLineColor(1);
+   gp->Draw();
+
+
+}

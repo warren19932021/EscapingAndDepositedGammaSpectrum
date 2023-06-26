@@ -1,0 +1,1000 @@
+ 1000  cmake .. && make -j8
+ 1001  ls -lrt
+ 1002  ./sim 
+ 1003  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1004  ls -lrt
+ 1005  vi see.txt 
+ 1006  cmake .. && make -j8
+ 1007  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1008  ls -lrt
+ 1009  vi see.txt 
+ 1010  root TEST0.root 
+ 1011  ls -lrt
+ 1012  vi see.txt 
+ 1013  vi ../NEWGPSScanTarget.mac 
+ 1014  cmake .. && make -j8 && ./sim 
+ 1015  ls -lrt
+ 1016  rm -rf *.root
+ 1017  ls -lrt
+ 1018  cmake .. && make -j8 && ./sim 
+ 1019  vi NEWGPSScanTarget.mac 
+ 1020  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1021  ls -lrt
+ 1022  vi see.txt 
+ 1023  ls -lrt
+ 1024  root TEST0.root 
+ 1025  ls -lrt
+ 1026  mv TEST0.root TEST0withconcrete.root 
+ 1027  cp TEST0withconcrete.root ../Draw/
+ 1028  cmake .. && make -j8 && ./sim 
+ 1029  rm TEST0.root 
+ 1030  cmake .. && make -j8 && ./sim 
+ 1031  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1032  ls -lrtr
+ 1033  ls -lls -lrt
+ 1034  ls -lrt
+ 1035  vi see.txt 
+ 1036  ls -lrt
+ 1037  root TEST0.root 
+ 1038  cmake .. && make -j8 && ./sim 
+ 1039  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1040  ls -lrt
+ 1041  vi see.txt 
+ 1042  ls -lrt
+ 1043  vi see.txt 
+ 1044  ls -lrt
+ 1045  root TEST0.root 
+ 1046  ls -lrt
+ 1047  mv TEST0.root  NEWTEST0withlead.root 
+ 1048  mv NEWTEST0withlead.root ../Draw/
+ 1049  ll
+ 1050  cd ../Draw/
+ 1051  ll
+ 1052  ls -lrt
+ 1053  cd TargetThicknessOptimisation/
+ 1054  ll
+ 1055  mv ../NEWTEST0withlead.root .
+ 1056  mv ../TEST0withconcrete.root .
+ 1057  ll
+ 1058  ls -lrt
+ 1059  \vi DrawThickness.cxx 
+ 1060  ls -lrt
+ 1061  vi DrawThickness.cxx 
+ 1062  cp DrawThickness.cxx DrawThickness.cxxbak
+ 1063  vi DrawThickness.cxx
+ 1064  root  DrawThickness.cxx
+ 1065  vi DrawThickness.cxx
+ 1066  ls -lrt
+ 1067  vi DrawThickness.cxx
+ 1068  root  DrawThickness.cxx
+ 1069  vi DrawThickness.cxx
+ 1070  ls -lrt
+ 1071  root NEWTEST0withlead.root 
+ 1072  ls
+ 1073  ls -lrt
+ 1074  cd ../../build/
+ 1075  ls -lrt
+ 1076  cmake .. && make -j8
+ 1077  ls -lrt
+ 1078  ./sim 
+ 1079  cmake .. && make -j8 && ./sim 
+ 1080  ls -lrt
+ 1081  rm TEST0.root 
+ 1082  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1083  ls m-lrt
+ 1084  ls -lrt
+ 1085  mv TEST0.root  NEWTEST0withoutlead.root 
+ 1086  ls -lrt
+ 1087  cp NEWTEST0withoutlead.root ../Draw/TargetThicknessOptimisation/
+ 1088  cd ../Draw/TargetThicknessOptimisation/
+ 1089  ll
+ 1090  ls -lrt
+ 1091  vi DrawThickness.cxx
+ 1092  root DrawThickness.cxx
+ 1093  vi DrawThickness.cxx
+ 1094  root DrawThickness.cxx
+ 1095  vi DrawThickness.cxx
+ 1096  root DrawThickness.cxx
+ 1097  vi DrawThickness.cxx
+ 1098  root DrawThickness.cxx
+ 1099  vi DrawThickness.cxx
+ 1100  ls -lrt
+ 1101  vi DrawThickness.cxx
+ 1102  root DrawThickness.cxx
+ 1103  vi DrawThickness.cxx
+ 1104  root DrawThickness.cxx
+ 1105  vi DrawThickness.cxx
+ 1106  root DrawThickness.cxx
+ 1107  cd ../..
+ 1108  ll
+ 1109  cd ..
+ 1110  ls -lrt
+ 1111  mkdir Gamma_vs_Depth
+ 1112  cd Gamma_vs_Depth/
+ 1113  ll
+ 1114  cp -rf ../Compare_concrete_and_lead_stopping_ability/* .
+ 1115  ls -lrt
+ 1116  ls
+ 1117  cd build/
+ 1118  lll
+ 1119  ll
+ 1120  rm -rf *
+ 1121  cd ..
+ 1122  ls -lrt
+ 1123  cd build/
+ 1124  cmake .. && make -j8
+ 1125  ./sim 
+ 1126  ls -lrt
+ 1127  cmake .. && make -j8 && ./sim 
+ 1128  vi ../vis.mac 
+ 1129  cmake .. && make -j8 && ./sim 
+ 1130  ls -lrt
+ 1131  vi NEWGPSScanTarget.mac 
+ 1132  vi cp /home/iktp/Geant4-Work/NewStart/HansHPGe/UniformGammaSource/build/GammaGun.mac .
+ 1133  ls -lrt
+ 1134  vi GammaGun.mac 
+ 1135  ls -lrt
+ 1136  vi GammaGun.mac 
+ 1137  ./sim GammaGun.mac > see.txt
+ 1138  ls -lrt
+ 1139  vi see.txt 
+ 1140  cmake .. && make -j8 && ./sim 
+ 1141  ./sim > see.txt 
+ 1142  ls -lrt
+ 1143  vi see.txt 
+ 1144  vi GammaGun.mac 
+ 1145  vi see.txt 
+ 1146  ./sim > see.txt 
+ 1147  vi GammaGun.mac 
+ 1148  ./sim > see.txt 
+ 1149  ./sim GammaGun.mac > see.txt 
+ 1150  vi see.txt 
+ 1151  cmake .. && make -j8 && ./sim 
+ 1152  ./sim GammaGun.mac > see.txt 
+ 1153  vi see.txt 
+ 1154  ls -lrt
+ 1155  vi GammaGun.mac 
+ 1156  ./sim GammaGun.mac > see.txt 
+ 1157  ls -lrt
+ 1158  vi see.txt 
+ 1159  ./sim > see.txt 
+ 1160  vi see.txt 
+ 1161  ls -lrt
+ 1162  ./sim 
+ 1163  ./sim GammaGun.mac > see.txt 
+ 1164  ls -lrt
+ 1165  vi see.txt 
+ 1166  cmake .. && make -j8 && ./sim 
+ 1167  cmake .. && make -j8 && ./sim > see.txt 
+ 1168  ls -lrt
+ 1169  vi see.txt 
+ 1170  cmake .. && make -j8 && ./sim > see.txt 
+ 1171  ls -lrt
+ 1172  vi see.txt 
+ 1173  cmake .. && make -j8 && ./sim > see.txt 
+ 1174  vi see.txt 
+ 1175  cmake .. && make -j8 && ./sim > see.txt 
+ 1176  vi see.txt 
+ 1177  cmake .. && make -j8 && ./sim > see.txt 
+ 1178  vi see.txt 
+ 1179  cmake .. && make -j8 && ./sim > see.txt 
+ 1180  vi see.txt 
+ 1181  cmake .. && make -j8 && ./sim > see.txt 
+ 1182  ls -lrt
+ 1183  vi see.txt 
+ 1184  cmake .. && make -j8 && ./sim > see.txt 
+ 1185  ls -lrt
+ 1186  vi see.txt 
+ 1187  cmake .. && make -j8 && ./sim > see.txt 
+ 1188  ls -lrt
+ 1189  vi see.txt 
+ 1190  cmake .. && make -j8 && ./sim > see.txt 
+ 1191  ls -lrt
+ 1192  vi see.txt 
+ 1193  cmake .. && make -j8 && ./sim > see.txt 
+ 1194  vi see.txt 
+ 1195  cmake .. && make -j8 && ./sim > see.txt 
+ 1196  ls -lrt
+ 1197  vi see.txt 
+ 1198  cmake .. && make -j8 && ./sim > see.txt 
+ 1199  vi see.txt 
+ 1200  cmake .. && make -j8 && ./sim > see.txt 
+ 1201  ls -lrt
+ 1202  vi see.txt 
+ 1203  cmake .. && make -j8 && ./sim > see.txt 
+ 1204  vi see.txt 
+ 1205  cmake .. && make -j8 && ./sim > see.txt 
+ 1206  ls -lrt
+ 1207  cmake .. && make -j8 && ./sim > see.txt 
+ 1208  vi see.txt 
+ 1209  cmake .. && make -j8 && ./sim > see.txt 
+ 1210  ls -lrt
+ 1211  vi see.txt 
+ 1212  cmake .. && make -j8 && ./sim > see.txt 
+ 1213  vi see.txt 
+ 1214  cmake .. && make -j8 && ./sim > see.txt 
+ 1215  vi see.txt 
+ 1216  cmake .. && make -j8 && ./sim > see.txt 
+ 1217  ls -lrt
+ 1218  vi see.txt 
+ 1219  cmake .. && make -j8 && ./sim > see.txt 
+ 1220  ls -lrt
+ 1221  vi see.txt 
+ 1222  cmake .. && make -j8 && ./sim > see.txt 
+ 1223  ls -lrt
+ 1224  vi see.txt 
+ 1225  cmake .. && make -j8 && ./sim > see.txt 
+ 1226  ls -lrt
+ 1227  vi see.txt 
+ 1228  ls -lrt
+ 1229  vi GammaGun.mac 
+ 1230  ./sim GammaGun.mac > see.txt 
+ 1231  ls -lrt
+ 1232  vi see.txt 
+ 1233  vi GammaGun.mac 
+ 1234  ./sim GammaGun.mac > see.txt 
+ 1235  vi see.txt 
+ 1236  cp GammaGun.mac ..
+ 1237  cmake .. && make -j8 && ./sim > see.txt 
+ 1238  ./sim GammaGun.mac > see.txt 
+ 1239  ls -lrt
+ 1240  vi see.txt 
+ 1241  cmake .. && make -j8 && ./sim > see.txt 
+ 1242  ./sim GammaGun.mac > see.txt 
+ 1243  vi see.txt 
+ 1244  ./sim GammaGun.mac > see.txt 
+ 1245  cmake .. && make -j8 && ./sim > see.txt 
+ 1246  ./sim GammaGun.mac > see.txt 
+ 1247  ls -lrt
+ 1248  vi see.txt 
+ 1249  ./sim GammaGun.mac > see.txt 
+ 1250  vi see.txt 
+ 1251  vi GammaGun.mac 
+ 1252  vi see.txt 
+ 1253  ./sim GammaGun.mac > see.txt 
+ 1254  vi see.txt 
+ 1255  ls -lrt
+ 1256  ./sim GammaGun.mac > see.txt 
+ 1257  ls -lrt
+ 1258  vi see.txt 
+ 1259  ls -lrt
+ 1260  cmake .. && make -j8 && ./sim > see.txt 
+ 1261  ./sim GammaGun.mac > see.txt 
+ 1262  ls -lrt
+ 1263  vi see.txt 
+ 1264  cmake .. && make -j8 && ./sim > see.txt 
+ 1265  ./sim GammaGun.mac > see.txt 
+ 1266  vi see.txt 
+ 1267  cmake .. && make -j8 && ./sim > see.txt 
+ 1268  ./sim GammaGun.mac > see.txt 
+ 1269  ls -lrt
+ 1270  vi see.txt 
+ 1271  cmake .. && make -j8 && ./sim > see.txt 
+ 1272  ./sim GammaGun.mac > see.txt 
+ 1273  vi see.txt 
+ 1274  cmake .. && make -j8 && ./sim > see.txt 
+ 1275  ./sim GammaGun.mac > see.txt 
+ 1276  vi see.txt 
+ 1277  cmake .. && make -j8 && ./sim > see.txt 
+ 1278  ./sim GammaGun.mac > see.txt 
+ 1279  vi see.txt 
+ 1280  cmake .. && make -j8 && ./sim > see.txt 
+ 1281  ./sim GammaGun.mac > see.txt 
+ 1282  vi see.txt 
+ 1283  cmake .. && make -j8 && ./sim > see.txt 
+ 1284  ./sim GammaGun.mac > see.txt 
+ 1285  vi see.txt 
+ 1286  ls -lrt
+ 1287  cmake .. && make -j8 && ./sim > see.txt 
+ 1288  ./sim GammaGun.mac > see.txt 
+ 1289  ls -lrt
+ 1290  vi see.txt 
+ 1291  cmake .. && make -j8 && ./sim > see.txt 
+ 1292  ./sim GammaGun.mac > see.txt 
+ 1293  ls -lrt
+ 1294  vi see.txt 
+ 1295  cmake .. && make -j8 && ./sim > see.txt 
+ 1296  ./sim GammaGun.mac > see.txt 
+ 1297  vi see.txt 
+ 1298  cmake .. && make -j8 && ./sim > see.txt 
+ 1299  ls -lrt
+ 1300  ./sim GammaGun.mac > see.txt 
+ 1301  vi see.txt 
+ 1302  vi ../GammaGun.mac 
+ 1303  vi see.txt 
+ 1304  ls -lrt
+ 1305  cmake .. && make -j8 
+ 1306  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1307  ls -lrt
+ 1308  vi see.txt 
+ 1309  vi ../GammaGun.mac 
+ 1310  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1311  vi see.txt 
+ 1312  ./sim 
+ 1313  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1314  ./sim 
+ 1315  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1316  vi see.txt 
+ 1317  ls -lrt
+ 1318  root TEST
+ 1319  root TEST0.root 
+ 1320  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1321  vi ../GammaGun.mac 
+ 1322  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1323  vi see.txt 
+ 1324  root TEST0.root 
+ 1325  vi ../GammaGun.mac 
+ 1326  cmake .. && make -j8 &&./sim GammaGun.mac > see.txt 
+ 1327  root TEST0.root 
+ 1328  ls -lrt
+ 1329  root DrawThickness.cxx
+ 1330  root DrawEnergySpectrum.cxx
+ 1331  ls -lrt
+ 1332  cp DrawEnergySpectrumWithLeadandconcrete.cxx
+ 1333  cp DrawEnergySpectrumWithLead.cxx DrawEnergySpectrumWithLeadandconcrete.cxx
+ 1334  ls -lrt
+ 1335  mv DrawEnergySpectrumWithLeadandconcrete.cxx DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1336  ls -lrt
+ 1337  vi DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1338  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1339  ls -lrt
+ 1340  root DrawEnergySpectrumWithLead.cxx
+ 1341  root DrawEnergySpectrum.cxx
+ 1342  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1343  vi DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1344  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1345  vi DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1346  ll
+ 1347  vi DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1348  ll
+ 1349  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1350  cd ../../..
+ 1351  ll
+ 1352  cd DPG_Cconference/
+ 1353  ll
+ 1354  cd Draw_Muon_Source_Angular_Distribution/
+ 1355  ls -lrt
+ 1356  display Polar.png 
+ 1357  cd src/
+ 1358  ll
+ 1359  vi event.cc 
+ 1360  vi SteppingAction.cc 
+ 1361  vi ../include/SteppingAction.hh 
+ 1362  vi RunAction.cc 
+ 1363  vi TrackingAction.cc 
+ 1364  vi event.cc 
+ 1365  vi SteppingAction.cc 
+ 1366  vi ../include/SteppingAction.hh 
+ 1367  vi SteppingAction.cc 
+ 1368  cd ../Draw/
+ 1369  ll
+ 1370  ls -lrt
+ 1371  cd SeeTypicalEnergyPeak/
+ 1372  ll
+ 1373  display TypicalEnergyPeak.png 
+ 1374  vi DrawTypicalEnergyPeak.cxx 
+ 1375  cd .
+ 1376  cd ..
+ 1377  cd -
+ 1378  ll
+ 1379  cp DrawTypicalEnergyPeak.cxx  NewDrawTypicalEnergyPeak.cxx 
+ 1380  vi NewDrawTypicalEnergyPeak.cxx 
+ 1381  cp ~/Geant4-Work/NewStart/SeeSecondaryParticles/build/TEST0.root .
+ 1382  ls -lrt
+ 1383  mv TEST0.root TEST0TypicalPeak.root 
+ 1384  ls -lrt
+ 1385  vi NewDrawTypicalEnergyPeak.cxx 
+ 1386  root NewDrawTypicalEnergyPeak.cxx 
+ 1387  vi NewDrawTypicalEnergyPeak.cxx 
+ 1388  root NewDrawTypicalEnergyPeak.cxx 
+ 1389  vi NewDrawTypicalEnergyPeak.cxx 
+ 1390  root NewDrawTypicalEnergyPeak.cxx 
+ 1391  vi NewDrawTypicalEnergyPeak.cxx 
+ 1392  root NewDrawTypicalEnergyPeak.cxx 
+ 1393  vi NewDrawTypicalEnergyPeak.cxx 
+ 1394  root NewDrawTypicalEnergyPeak.cxx 
+ 1395  vi NewDrawTypicalEnergyPeak.cxx 
+ 1396  root NewDrawTypicalEnergyPeak.cxx 
+ 1397  vi NewDrawTypicalEnergyPeak.cxx 
+ 1398  root NewDrawTypicalEnergyPeak.cxx 
+ 1399  vi NewDrawTypicalEnergyPeak.cxx 
+ 1400  ls -lrt
+ 1401  root DrawTypicalEnergyPeak.cxx 
+ 1402  root NewDrawTypicalEnergyPeak.cxx 
+ 1403  root DrawTypicalEnergyPeak.cxx 
+ 1404  ls -lrt
+ 1405  vi NewDrawTypicalEnergyPeak.cxx 
+ 1406  ls -lrt
+ 1407  root NewDrawTypicalEnergyPeak.cxx 
+ 1408  vi NewDrawTypicalEnergyPeak.cxx 
+ 1409  root NewDrawTypicalEnergyPeak.cxx 
+ 1410  vi NewDrawTypicalEnergyPeak.cxx 
+ 1411  root NewDrawTypicalEnergyPeak.cxx 
+ 1412  vi NewDrawTypicalEnergyPeak.cxx 
+ 1413  root NewDrawTypicalEnergyPeak.cxx 
+ 1414  vi NewDrawTypicalEnergyPeak.cxx 
+ 1415  root NewDrawTypicalEnergyPeak.cxx 
+ 1416  vi NewDrawTypicalEnergyPeak.cxx 
+ 1417  root NewDrawTypicalEnergyPeak.cxx 
+ 1418  vi NewDrawTypicalEnergyPeak.cxx 
+ 1419  root NewDrawTypicalEnergyPeak.cxx 
+ 1420  vi NewDrawTypicalEnergyPeak.cxx 
+ 1421  root NewDrawTypicalEnergyPeak.cxx 
+ 1422  vi NewDrawTypicalEnergyPeak.cxx 
+ 1423  root NewDrawTypicalEnergyPeak.cxx 
+ 1424  vi NewDrawTypicalEnergyPeak.cxx 
+ 1425  root NewDrawTypicalEnergyPeak.cxx 
+ 1426  vi NewDrawTypicalEnergyPeak.cxx 
+ 1427  root NewDrawTypicalEnergyPeak.cxx 
+ 1428  vi NewDrawTypicalEnergyPeak.cxx 
+ 1429  root NewDrawTypicalEnergyPeak.cxx 
+ 1430  vi NewDrawTypicalEnergyPeak.cxx 
+ 1431  root NewDrawTypicalEnergyPeak.cxx 
+ 1432  vi NewDrawTypicalEnergyPeak.cxx 
+ 1433  root NewDrawTypicalEnergyPeak.cxx 
+ 1434  vi NewDrawTypicalEnergyPeak.cxx 
+ 1435  root NewDrawTypicalEnergyPeak.cxx 
+ 1436  vi NewDrawTypicalEnergyPeak.cxx 
+ 1437  root NewDrawTypicalEnergyPeak.cxx 
+ 1438  vi NewDrawTypicalEnergyPeak.cxx 
+ 1439  root NewDrawTypicalEnergyPeak.cxx 
+ 1440  vi NewDrawTypicalEnergyPeak.cxx 
+ 1441  root NewDrawTypicalEnergyPeak.cxx 
+ 1442  vi NewDrawTypicalEnergyPeak.cxx 
+ 1443  root NewDrawTypicalEnergyPeak.cxx 
+ 1444  vi NewDrawTypicalEnergyPeak.cxx 
+ 1445  root NewDrawTypicalEnergyPeak.cxx 
+ 1446  vi NewDrawTypicalEnergyPeak.cxx 
+ 1447  root NewDrawTypicalEnergyPeak.cxx 
+ 1448  vi NewDrawTypicalEnergyPeak.cxx 
+ 1449  root NewDrawTypicalEnergyPeak.cxx 
+ 1450  vi NewDrawTypicalEnergyPeak.cxx 
+ 1451  root NewDrawTypicalEnergyPeak.cxx 
+ 1452  vi NewDrawTypicalEnergyPeak.cxx 
+ 1453  cd ../..
+ 1454  ll
+ 1455  ls -lrt
+ 1456  cd SeeSecondaryParticles/
+ 1457  ls -lrt
+ 1458  cd build/
+ 1459  ll
+ 1460  ./sim 
+ 1461  ls -lrt
+ 1462  vi NEWGPSScanTarget.mac 
+ 1463  vi see.txt 
+ 1464  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1465  ls -lrt
+ 1466  root TEST0.root 
+ 1467  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1468  root TEST0.root 
+ 1469  ls -lrt
+ 1470  vi see.txt 
+ 1471  cmake .. && make -j8 && ./sim 
+ 1472  ./sim NEWGPSScanTarget.mac > see.txt 
+ 1473  l s-lrt
+ 1474  ls -lrt
+ 1475  vi see.txt 
+ 1476  ls -lrt
+ 1477  vi NEWGPSScanTarget.mac
+ 1478  cp  NEWGPSScanTarget.mac ..
+ 1479  cmake .. && make -j8 && ./sim NEWGPSScanTarget.mac > see.txt 
+ 1480  ls -lrt
+ 1481  vi see.txt 
+ 1482  root TEST0.root 
+ 1483  root TEST0.root ls -lrt
+ 1484  root TEST0.root
+ 1485  root NewDrawTypicalEnergyPeak.cxx 
+ 1486  ls -lrt
+ 1487  vi NewDrawTypicalEnergyPeak.cxx 
+ 1488  root  NewDrawTypicalEnergyPeak.cxx 
+ 1489  vi NewDrawTypicalEnergyPeak.cxx 
+ 1490  root  NewDrawTypicalEnergyPeak.cxx 
+ 1491  vi NewDrawTypicalEnergyPeak.cxx 
+ 1492  root  NewDrawTypicalEnergyPeak.cxx 
+ 1493  ls -lrt
+ 1494  root NEWTEST0SeeTypicalEnergyPeak.root
+ 1495  ls -lrt
+ 1496  root NEWTEST0SeeTypicalEnergyPeak.root
+ 1497  ls -lrt
+ 1498  cd ..
+ 1499  ls -lrt
+ 1500  cd ../build/
+ 1501  ls -lrt
+ 1502  root TEST0.root 
+ 1503  pwd
+ 1504  ll
+ 1505  vi see.txt 
+ 1506  root TEST0.root 
+ 1507  ls -lrt
+ 1508  vi see.txt 
+ 1509  ll
+ 1510  cd ../Draw/
+ 1511  ll
+ 1512  vi readData
+ 1513  vi readData.cxx
+ 1514  cd Polar_Draw/
+ 1515  ll
+ 1516  vi haha.C 
+ 1517  cd ~/Programs/
+ 1518  ls
+ 1519  cd exgun/fit/
+ 1520  ll
+ 1521  ls -lrt
+ 1522  vi SquareLaWCheck_Fit.cxx 
+ 1523  pwd
+ 1524  ls -lrt
+ 1525  vi see.txt 
+ 1526  ls -lrt
+ 1527  vi see.txt 
+ 1528  cd ../Draw/
+ 1529  ls -lrt
+ 1530  cd EnergySpectrumWithOrWithoutSlowDownMaterial/
+ 1531  ls -lrt
+ 1532  cp DrawThickness.cxx DrawEnergySpectrum.cxx 
+ 1533  ls -lrt
+ 1534  vi   DrawEnergySpectrum.cxx
+ 1535  vi ../../GPSSlowDownMaterial.mac 
+ 1536  vi ../../GPSScanSlowDownMaterial.mac 
+ 1537  vi   DrawEnergySpectrum.cxx
+ 1538  vi ../../GPSScanSlowDownMaterial.mac 
+ 1539  vi   DrawEnergySpectrum.cxx
+ 1540  cp ../../build/TEST*.root .
+ 1541  root TEST3.root 
+ 1542  root TEST2.root 
+ 1543  root TEST0.root 
+ 1544  root TEST3.root 
+ 1545  ls -lrt
+ 1546  vi DrawEnergySpectrum.cxx 
+ 1547  cp ../../build/TEST*.root .
+ 1548  ls -lrt
+ 1549  vi DrawEnergySpectrum.cxx 
+ 1550  root DrawEnergySpectrum.cxx 
+ 1551  vi DrawEnergySpectrum.cxx 
+ 1552  root DrawEnergySpectrum.cxx 
+ 1553  vi DrawEnergySpectrum.cxx 
+ 1554  root DrawEnergySpectrum.cxx 
+ 1555  vi DrawEnergySpectrum.cxx 
+ 1556  root DrawEnergySpectrum.cxx 
+ 1557  vi DrawEnergySpectrum.cxx 
+ 1558  root DrawEnergySpectrum.cxx 
+ 1559  vi DrawEnergySpectrum.cxx 
+ 1560  root DrawEnergySpectrum.cxx 
+ 1561  vi DrawEnergySpectrum.cxx 
+ 1562  root DrawEnergySpectrum.cxx 
+ 1563  vi DrawEnergySpectrum.cxx 
+ 1564  root DrawEnergySpectrum.cxx 
+ 1565  vi DrawEnergySpectrum.cxx 
+ 1566  root DrawEnergySpectrum.cxx 
+ 1567  ls -lrt
+ 1568  root TEST3withconcrete50cm.root
+ 1569  vi DrawEnergySpectrum.cxx 
+ 1570  root TEST3withconcrete50cm.root
+ 1571  root DrawEnergySpectrum.cxx 
+ 1572  vi DrawEnergySpectrum.cxx 
+ 1573  root DrawEnergySpectrum.cxx 
+ 1574  root TEST3withconcrete50cm.root
+ 1575  ls -lrt
+ 1576  root TEST0withconcrete20cm.root
+ 1577  cp ../../build/TEST*Lead*.root .
+ 1578  ls -lrt
+ 1579  cp DrawEnergySpectrum.cxx DrawEnergySpectrumWithLead.cxx
+ 1580  vi DrawEnergySpectrumWithLead.cxx 
+ 1581  root DrawEnergySpectrumWithLead.cxx 
+ 1582  vi DrawEnergySpectrumWithLead.cxx 
+ 1583  root DrawEnergySpectrumWithLead.cxx 
+ 1584  cd ..
+ 1585  ll
+ 1586  ls -lrt
+ 1587  cd -
+ 1588  ls -lrt
+ 1589  cd EnergySpectrumWithOrWithoutSlowDownMaterial/
+ 1590  ll
+ 1591  root DrawEnergySpectrumWithLead.cxx
+ 1592  mv ../../build/TEST*Lead*.root .
+ 1593  ls -lrt
+ 1594  mv ../../build/TEST*concrete*.root .
+ 1595  ls -lrt
+ 1596  root DrawEnergySpectrumWithLead.cxx
+ 1597  ls -lrt
+ 1598  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1599  vi DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1600  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1601  ls -lrt
+ 1602  cd ../../build/
+ 1603  ls -lrt
+ 1604  vi see.txt 
+ 1605  cd ../Draw/
+ 1606  ll
+ 1607  ls -lrt
+ 1608  cd EnergySpectrumWithOrWithoutSlowDownMaterial/
+ 1609  ll
+ 1610  ls -lrt
+ 1611  cp DrawThickness.cxx TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1612  ls -lrt
+ 1613  vi TargetPenetrationDepthWithMaterialConcrete.cxx 
+ 1614  mv TargetPenetrationDepthWithMaterialConcrete.cxx TargetPenetrationDepthWithMaterialConcreteAndLead.cxx
+ 1615  vi TargetPenetrationDepthWithMaterialConcreteAndLead.cxx
+ 1616  ls -lrt
+ 1617  mv ../../build/PenetrationDepthMaterialConcrete.root .
+ 1618  ll
+ 1619  ls -lrt
+ 1620  root TargetPenetrationDepthWithMaterialConcreteAndLead.cxx 
+ 1621  ll
+ 1622  ls -lrt
+ 1623  mv TargetPenetrationDepthWithMaterialConcreteAndLead.cxx TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1624  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1625  root  TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1626  cd ../../build/
+ 1627  ls -lrt
+ 1628  vi see.txt 
+ 1629  cd ../Draw/
+ 1630  ls -lrt
+ 1631  cd EnergySpectrumWithOrWithoutSlowDownMaterial/
+ 1632  ll
+ 1633  ls -lrt
+ 1634  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1635  mv ../../build/TEST0.roothaha PenetrationDepthWithoutMaterialConcrete.root
+ 1636  ls -lrt
+ 1637  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1638  ls -lrt
+ 1639  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1640  root  TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1641  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1642  root  TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1643  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1644  root  TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1645  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1646  ls -lrt
+ 1647  root PenetrationDepthWithoutMaterialConcrete.root
+ 1648  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1649  root PenetrationDepthWithoutMaterialConcrete.root
+ 1650  root TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1651  root PenetrationDepthWithoutMaterialConcrete.root
+ 1652  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1653  root PenetrationDepthWithoutMaterialConcrete.root
+ 1654  root TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1655  root PenetrationDepthWithoutMaterialConcrete.root
+ 1656  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1657  root PenetrationDepthWithoutMaterialConcrete.root
+ 1658  root TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1659  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1660  root TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1661  vi TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1662  root TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1663  ls -lrt
+ 1664  ll *.cxx
+ 1665  root DrawEnergySpectrumWithConcrete.cxx
+ 1666  root DrawEnergySpectrumWithLead.cxx
+ 1667  root DrawEnergySpectrumWithLeadAndConcrete.cxx
+ 1668  ll *.cxx
+ 1669  root TargetPenetrationDepthWithMaterialConcrete.cxx
+ 1670  cd ../..
+ 1671  ll
+ 1672  ls -lrt
+ 1673  cd Compare_concrete_and_lead_stopping_ability/
+ 1674  ls -lrt
+ 1675  cd build/
+ 1676  ls -olrt
+ 1677  ls -lrt
+ 1678  vi PenetrationDepthMaterialConcrete.mac 
+ 1679  pwd
+ 1680  ls -lrt
+ 1681  vi PenetrationDepthMaterialConcrete.mac 
+ 1682  ls -lrt
+ 1683  cd ..
+ 1684  ls -lrt
+ 1685  cd build/
+ 1686  ls -lrt
+ 1687  ./sim 
+ 1688  ls -lrt
+ 1689  vi PenetrationDepthMaterialConcrete.mac 
+ 1690  ./sim PenetrationDepthMaterialConcrete.mac > see.txt 
+ 1691  ls -lrt
+ 1692  root TEST0.root
+ 1693  cd ../Draw/
+ 1694  ls -lrt
+ 1695  cd EnergySpectrumWithOrWithoutSlowDownMaterial/
+ 1696  ls -lrt
+ 1697  display muonstopeeddepthWithConcreteOrNoConcrete.png
+ 1698  ll *.cxx
+ 1699  ls -lrt *.cxx
+ 1700  vi TargetPenetrationDepthWithMaterialConcrete.cxx 
+ 1701  root  TargetPenetrationDepthWithMaterialConcrete.cxx 
+ 1702  vi TargetPenetrationDepthWithMaterialConcrete.cxx 
+ 1703  ls -lrt
+ 1704  cd ../../build/
+ 1705  ls -lrt
+ 1706  vi see
+ 1707  vi see.txt 
+ 1708  cd ~/Geant4-Work/NewStart/
+ 1709  ls -lrt
+ 1710  cd TargetGeoOptimisation/
+ 1711  ll
+ 1712  cd build/
+ 1713  cmake .. && make -j8 && ./sim
+ 1714  rm -rf *
+ 1715  cmake .. && make -j8 && ./sim
+ 1716  ls -lrt
+ 1717  ./sim 
+ 1718  cmake .. && make -j8 && ./sim
+ 1719  ls -lrt
+ 1720  vi GPSTarget.mac 
+ 1721  vi GPSScanTarget.mac 
+ 1722  cp /home/iktp/Geant4-Work/NewStart/Compare_concrete_and_lead_stopping_ability/build/PenetrationDepthMaterialConcrete.mac .
+ 1723  ls -lrt
+ 1724  vi PenetrationDepthMaterialConcrete.mac 
+ 1725  cp  PenetrationDepthMaterialConcrete.mac  ..
+ 1726  vi PenetrationDepthMaterialConcrete.mac 
+ 1727  mv  PenetrationDepthMaterialConcrete.mac  OptimiseSideAndFrontThickness.mac
+ 1728  vi OptimiseSideAndFrontThickness.mac 
+ 1729  ls -lrt
+ 1730  vi GPSTarget.mac 
+ 1731  mv GPSTarget.mac ScanSideThickness.mac
+ 1732  vi ScanSideThickness.mac 
+ 1733  ls -lrt
+ 1734  mkdir tempmacccc
+ 1735  mv OptimiseSideAndFrontThickness.mac ScanSideThickness.mac  tempmacccc/
+ 1736  ll
+ 1737  cd ..
+ 1738  ll
+ 1739  rm -rf *.mac
+ 1740  ls -lrt
+ 1741  rm ScanMuonMomentumandTarget.macbak
+ 1742  ls -lrt
+ 1743  cd build/
+ 1744  ll
+ 1745  mv tempmacccc/* ..
+ 1746  ll
+ 1747  rm -rf *
+ 1748  cmake .. && make -j8 && ./sim
+ 1749  cp ../../Cup_Target/vis.mac .
+ 1750  cmake .. && make -j8 && ./sim
+ 1751  ls -lrt
+ 1752  vi OptimiseSideAndFrontThickness.mac
+ 1753  ./sim > see.txt
+ 1754  vi ../OptimiseSideAndFrontThickness.mac 
+ 1755  cmake .. && make -j8 && ./sim
+ 1756  ls -lrt
+ 1757  ./sim > see.txt 
+ 1758  ls -lrt
+ 1759  vi ScanSideThickness.mac
+ 1760  ./sim > see.txt 
+ 1761  ls -lrt
+ 1762  cmake .. && make -j8 && ./sim
+ 1763  ls -lrt
+ 1764  ./sim > see.txt 
+ 1765  ls -lrt
+ 1766  vi see.txt 
+ 1767  ls -lrt
+ 1768  vi ScanSideThickness.mac
+ 1769  vi OptimiseSideAndFrontThickness.mac 
+ 1770  cmake .. && make -j8 && ./sim > see.txt 
+ 1771  ls -lrt
+ 1772  vi ScanSideThickness.mac 
+ 1773  vi ../OptimiseSideAndFrontThickness.mac 
+ 1774  cmake .. && make -j8 && ./sim ScanSideThickness.mac > see.txt 
+ 1775  ls -lrt
+ 1776  vi see.txt 
+ 1777  ls -lrt
+ 1778  root TEST0.root 
+ 1779  ls -lrt
+ 1780  ls -lryt
+ 1781  ls -lrt
+ 1782  vi see.txt 
+ 1783  cmake .. && make -j8 && ./sim ScanSideThickness.mac > see.txt 
+ 1784  ls -lrt
+ 1785  vi see.txt 
+ 1786  ls -lrt
+ 1787  root TEST5.root 
+ 1788  ls -lrt
+ 1789  vi see.txt 
+ 1790  ls -lrt
+ 1791  vi see.txt 
+ 1792  cd ../..
+ 1793  ll
+ 1794  ls -lrt
+ 1795  cd TargetGeoOptimisation/
+ 1796  ll
+ 1797  ls -lrt
+ 1798  vi OptimiseSideAndFrontThickness.mac 
+ 1799  vi ScanSideThickness.mac 
+ 1800  vi OptimiseSideAndFrontThickness.mac 
+ 1801  cp  ScanSideThickness.mac  ..
+ 1802  cp OptimiseSideAndFrontThickness.mac  ..
+ 1803  cd ..
+ 1804  ll
+ 1805  rm OptimiseSideAndFrontThickness.mac ScanSideThickness.mac 
+ 1806  cd -
+ 1807  ll
+ 1808  cd build/
+ 1809  ll
+ 1810  rm -rf *
+ 1811  cmake .. && make -j8
+ 1812  ls m-lrt
+ 1813  ls -lrt
+ 1814  ./sim ScanSideThickness.mac > see.txt
+ 1815  ls -lrt
+ 1816  root TEST5.root 
+ 1817  cmake .. && make -j8 && ./sim 
+ 1818  cd ..
+ 1819  cp ../Cup_Target/vis.mac  .
+ 1820  cd build/
+ 1821  ll
+ 1822  rm -rf *
+ 1823  cmake .. && make -j8 && ./s
+ 1824  rm -rf *
+ 1825  cmake .. && make -j8 && ./sim
+ 1826  ls -lrt
+ 1827  ./sim > see.txt
+ 1828  ls -lrt
+ 1829  vi ScanSideThickness.mac 
+ 1830  vi OptimiseSideAndFrontThickness.mac 
+ 1831  rm -rf *
+ 1832  cmake .. && make -j8 && ./sim
+ 1833  ls -lrt
+ 1834  ./sim > see.txt
+ 1835  ./sim ScanSideThickness.mac > see.txt
+ 1836  ls -lrt
+ 1837  vi ScanSideThickness.mac 
+ 1838  vi OptimiseSideAndFrontThickness.mac 
+ 1839  vi see.txt 
+ 1840  vi OptimiseSideAndFrontThickness.mac 
+ 1841  cp  OptimiseSideAndFrontThickness.mac  ..
+ 1842  cp ScanSideThickness.mac ..
+ 1843  rm -rf *
+ 1844  cmake .. && make -j8 && ./s
+ 1845  rm -rf *
+ 1846  cmake .. && make -j8 && ./sim
+ 1847  ls -lrt
+ 1848  ./sim ScanSideThickness.mac > see.txt
+ 1849  ls -lrt
+ 1850  vi see.txt 
+ 1851  vi OptimiseSideAndFrontThickness.mac 
+ 1852  ls -lrt
+ 1853  cp  OptimiseSideAndFrontThickness.mac  ..
+ 1854  rm -rf *
+ 1855  cmake .. && make -j8
+ 1856  ls -lrt
+ 1857  ./sim ScanSideThickness.mac > see.txt
+ 1858  ls -lrt
+ 1859  vi see.txt 
+ 1860  ls -lrt
+ 1861  root TEST0.root 
+ 1862  ls -lrty
+ 1863  ls -lrt
+ 1864  vi ../OptimiseSideAndFrontThickness.mac 
+ 1865  cmake .. && make -j8 && ./sim ScanSideThickness.mac > see.txt 
+ 1866  ls -lrt
+ 1867  vi see.txt 
+ 1868  ls -lrt
+ 1869  vi see.txt 
+ 1870  root TEST0.root 
+ 1871  pwd
+ 1872  ls -lrt
+ 1873  history > hha.txt
+ 1874  vi hha.txt 
+ 1875  ssh -Y xiankehe@pktlogin.phy.tu-dresden.de
+ 1876  ls -lrt
+ 1877  lkk
+ 1878  cd ..
+ 1879  ls -lrt
+ 1880  vi OptimiseSideAndFrontThickness.mac 
+ 1881  ls -lrt
+ 1882  vi OptimiseSideAndFrontThickness.mac 
+ 1883  ssh -Y xiankehe@pktlogin.phy.tu-dresden.de
+ 1884  ls -lrt
+ 1885  vi see.txt 
+ 1886  root TEST0.root 
+ 1887  vi see.txt 
+ 1888  ls -lrt
+ 1889  vi see.txt 
+ 1890  ssh -Y xiankehe@pktlogin.phy.tu-dresden.de
+ 1891  ls -lrt
+ 1892  vi see.txt 
+ 1893  ls -lrt
+ 1894  vi see.txt 
+ 1895  cd  ../
+ 1896  ll
+ 1897  cd ..
+ 1898  ll
+ 1899  cd TargetGeoOptimisation/
+ 1900  ll
+ 1901  git log 
+ 1902  cd byu
+ 1903  cd build/
+ 1904  ll
+ 1905  rm -rf *
+ 1906  cmake .. && make -j8 && ./sim .
+ 1907  cmake .. && make -j8 
+ 1908  ./sim 
+ 1909  ls -lrt
+ 1910  rm -rf *
+ 1911  cd ..
+ 1912  ll
+ 1913  git init
+ 1914  git status 
+ 1915  git add .
+ 1916  git commit -m "initial code"
+ 1917  ll
+ 1918  git log 
+ 1919  git remote add origin git@github.com:warren19932021/TargetGeoOptimisation.git
+ 1920  git branch -M main 
+ 1921  git push -u origin main
+ 1922  ls -al ~/.ssh
+ 1923  ssh -T git@github.com
+ 1924  cd  ~/.ssh
+ 1925  ll
+ 1926  vi id_rsa
+ 1927  vi id_rsa.pub 
+ 1928  vi known_hosts 
+ 1929  rm id_rsa id_rsa.pub 
+ 1930  ll
+ 1931  ls -lrt
+ 1932  ssh-keygen -t rsa 'warren'
+ 1933  ssh-keygen -t rsa -C 'warren'
+ 1934  ls -lrt
+ 1935  vi id_rsa.pub 
+ 1936  cd -
+ 1937  ssh -T git@github.com
+ 1938  ssh-keygen -f "/home/iktp/.ssh/known_hosts" -R "github.com"
+ 1939  ssh -T git@github.com
+ 1940  git remote add origin git@github.com:warren19932021/TargetGeoOptimisation.git
+ 1941  git branch -M main
+ 1942  git push -u origin main
+ 1943  ls -lrt
+ 1944  vi OptimiseSideAndFrontThickness.mac 
+ 1945  vi ScanSideThickness.mac 
+ 1946  vi OptimiseSideAndFrontThickness.mac 
+ 1947  ls -lrt
+ 1948  cd build/
+ 1949  ll
+ 1950  ls -lrt
+ 1951  cmake .. && make -j8
+ 1952  ./sim 
+ 1953  ls -lrt
+ 1954  vi ScanSideThickness.mac 
+ 1955  vi OptimiseSideAndFrontThickness.mac 
+ 1956  ls -lrt
+ 1957  ./sim 
+ 1958  ls -lrt
+ 1959  ll
+ 1960  rm -rf *
+ 1961  cd ..
+ 1962  ll
+ 1963  git log 
+ 1964  git status 
+ 1965  git commit -M "fix the logical bug of code"
+ 1966  git status 
+ 1967  git add .
+ 1968  git status 
+ 1969  git commit -M "fix the logical bug of code"
+ 1970  git log 
+ 1971  git commit -m "fix the logical bug of code"
+ 1972  git log 
+ 1973  git status 
+ 1974  git push 
+ 1975  ll
+ 1976  history > seeaaa.txt
+ 1977  vi seeaaa.txt
+ 1978  git pull origin main
+ 1979  ll
+ 1980  cd build/
+ 1981  ll
+ 1982  root TEST16.root 
+ 1983  ls -lrt
+ 1984  root TEST15.root 
+ 1985  git status 
+ 1986  ll
+ 1987  cd ..
+ 1988  ll
+ 1989  rm seeaaa.txt 
+ 1990  git status 
+ 1991  rm seeaaa.txtx 
+ 1992  git status 
+ 1993  git add .
+ 1994  git commit  -m "yummy test"
+ 1995  git push -u origin main 
+ 1996  ls -lrt
+ 1997  LS -LRT
+ 1998  ls -lrt
+ 1999  history > see.txt

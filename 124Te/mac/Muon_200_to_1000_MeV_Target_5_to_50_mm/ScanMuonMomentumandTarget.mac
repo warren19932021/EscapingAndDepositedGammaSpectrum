@@ -1,0 +1,43 @@
+#/tracking/verbose 2
+/GunPrimaryGenerator/MomentumofMuon {momentumofmuon}
+
+/detector/Thickness 5
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 10
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 15
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 20
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 25
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 30
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 35
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 40
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 45
+/run/reinitializeGeometry
+/run/beamOn 1000
+
+/detector/Thickness 50
+/run/reinitializeGeometry
+/run/beamOn 1000
+
